@@ -1,0 +1,50 @@
+body {
+    font-family: cursive;
+    align-items: center;
+    background-color:  #fffdd0 ;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    padding: 10px;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 2rem;
+
+    margin: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+.tilapia, .parmediana, .bife {
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:600px) {
+    .sobre{ 
+        flex-direction: column;
+        min-width: 250px;
+        min-height: 300px;
+    }
+    img {
+        width: 200px;
+        height: 100px;
+    }
+}
